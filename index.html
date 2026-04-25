@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Raphael Ferrari | Portfólio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <!-- Arquivo de estilos principal -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="dark">
+
+  <!-- ===== CABEÇALHO / MENU DE NAVEGAÇÃO ===== -->
+  <header class="navbar">
+    <div class="nav-brand">RF<span class="dot">.</span></div>
+
+    <!-- Botão hamburguer exibido em telas menores (mobile) -->
+    <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <!-- Links de navegação entre as páginas -->
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html" class="active">Início</a>
+      <a href="sobre.html">Sobre mim</a>
+      <a href="formacao.html">Formação</a>
+      <a href="portfolio.html">Portfólio</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+
+    <!-- Botão para alternar entre tema claro e escuro -->
+    <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema">
+      <span id="themeIcon">☀️</span>
+    </button>
+  </header>
+
+  <!-- ===== SEÇÃO HERO (APRESENTAÇÃO PRINCIPAL) ===== -->
+  <main class="hero">
+    <div class="hero-content">
+      <p class="hero-greeting">Olá, eu sou</p>
+      <h1 class="hero-name">Raphael <span class="accent">Ferrari</span></h1>
+      <p class="hero-role">Segurança da Informação · Pós-Graduando em Redes e Cibersegurança</p>
+      <p class="hero-desc">
+        Apaixonado por tecnologia, segurança digital e desenvolvimento web.
+        Aqui você encontra minha trajetória e formas de entrar em contato.
+      </p>
+
+      <!-- Botões de ação da página inicial -->
+      <div class="hero-actions">
+        <a href="sobre.html" class="btn-primary">Saiba mais</a>
+        <a href="contato.html" class="btn-secondary">Falar comigo</a>
+      </div>
+    </div>
+
+    <!-- Elemento visual decorativo animado -->
+    <div class="hero-visual" aria-hidden="true">
+      <div class="avatar-ring">
+        <div class="avatar-inner">
+          <span>🔐</span>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- ===== RODAPÉ ===== -->
+  <footer class="footer">
+    <p>© 2025 Raphael Ferrari. Feito com HTML, CSS e JavaScript.</p>
+  </footer>
+
+  <!-- Script principal: controla menu mobile e alternância de tema -->
+  <script src="js/main.js"></script>
+</body>
+</html>

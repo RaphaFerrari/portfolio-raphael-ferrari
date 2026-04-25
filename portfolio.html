@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio | Raphael Ferrari</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="dark">
+
+  <!-- ===== MENU DE NAVEGAÇÃO ===== -->
+  <header class="navbar">
+    <div class="nav-brand">RF<span class="dot">.</span></div>
+
+    <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Início</a>
+      <a href="sobre.html">Sobre mim</a>
+      <a href="formacao.html">Formação</a>
+      <a href="portfolio.html" class="active">Portfólio</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+
+    <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema">
+      <span id="themeIcon">☀️</span>
+    </button>
+  </header>
+
+  <!-- ===== CONTEÚDO PRINCIPAL ===== -->
+  <main class="page-content">
+
+    <section class="section-header">
+      <h2 class="section-title">Meu <span class="accent">Portfólio</span></h2>
+      <div class="section-line"></div>
+      <p class="section-desc">Trabalhos desenvolvidos durante a graduação.</p>
+    </section>
+
+    <!-- Grade de projetos -->
+    <section class="projects-grid">
+
+      <!-- Este portfólio é o único projeto real disponível no momento -->
+      <article class="project-card featured">
+        <div class="project-icon">⭐</div>
+        <h4>Portfólio Pessoal</h4>
+        <p>Site de portfólio desenvolvido como atividade prática da disciplina Fundamentos da Programação Web na UNINTER. Feito com HTML5, CSS3 e JavaScript puro, sem uso de frameworks.</p>
+        <div class="project-tags">
+          <span class="tag">HTML5</span>
+          <span class="tag">CSS3</span>
+          <span class="tag">JavaScript</span>
+        </div>
+        <div class="project-links">
+          <!-- Link para o repositório no GitHub -->
+          <a href="https://github.com/RaphaFerrari/portfolio-raphael-ferrari" target="_blank" rel="noopener" class="proj-link">GitHub →</a>
+        </div>
+      </article>
+
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 Raphael Ferrari. Feito com HTML, CSS e JavaScript.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

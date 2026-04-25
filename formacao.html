@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formação | Raphael Ferrari</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="dark">
+
+  <!-- ===== MENU DE NAVEGAÇÃO ===== -->
+  <header class="navbar">
+    <div class="nav-brand">RF<span class="dot">.</span></div>
+
+    <button class="hamburger" id="hamburger" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Início</a>
+      <a href="sobre.html">Sobre mim</a>
+      <a href="formacao.html" class="active">Formação</a>
+      <a href="portfolio.html">Portfólio</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+
+    <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema">
+      <span id="themeIcon">☀️</span>
+    </button>
+  </header>
+
+  <!-- ===== CONTEÚDO PRINCIPAL ===== -->
+  <main class="page-content">
+
+    <section class="section-header">
+      <h2 class="section-title">Minha <span class="accent">Formação</span></h2>
+      <div class="section-line"></div>
+    </section>
+
+    <!-- Timeline de formação acadêmica -->
+    <section class="timeline-section">
+      <h3 class="sub-title">📚 Educação</h3>
+      <div class="timeline">
+
+        <!-- Item mais recente: pós-graduação -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Cursando</span>
+            <h4>Pós-Graduação em Redes e Cibersegurança</h4>
+            <p class="timeline-inst">UNINTER – Centro Universitário Internacional</p>
+            <p>Especialização voltada para segurança de redes, análise de vulnerabilidades,
+               criptografia, firewalls e defesa de infraestrutura digital.</p>
+          </div>
+        </div>
+
+        <!-- Graduação em andamento -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <span class="timeline-date">Cursando</span>
+            <h4>Graduação em Segurança da Informação</h4>
+            <p class="timeline-inst">UNINTER – Centro Universitário Internacional</p>
+            <p>Curso superior tecnológico com foco em proteção de dados, segurança de sistemas,
+               legislação digital, redes e fundamentos de TI.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Cursos complementares realizados -->
+    <section class="courses-section">
+      <h3 class="sub-title">🎓 Cursos Complementares</h3>
+      <div class="courses-grid">
+
+        <div class="course-card">
+          <h4>HTML5 &amp; CSS3 Fundamentos</h4>
+          <p class="course-provider">UNINTER · 2024</p>
+          <p>Desenvolvimento de páginas web com HTML5 semântico e estilização com CSS3.</p>
+          <span class="course-badge">Concluído</span>
+        </div>
+
+        <div class="course-card">
+          <h4>JavaScript para Web</h4>
+          <p class="course-provider">UNINTER · 2024</p>
+          <p>Lógica de programação, manipulação do DOM e interatividade com JavaScript puro.</p>
+          <span class="course-badge">Concluído</span>
+        </div>
+
+        <div class="course-card">
+          <h4>Git e GitHub</h4>
+          <p class="course-provider">DIO · 2024</p>
+          <p>Controle de versão, repositórios públicos e colaboração em projetos com Git.</p>
+          <span class="course-badge">Concluído</span>
+        </div>
+
+        <div class="course-card">
+          <h4>Fundamentos de Redes</h4>
+          <p class="course-provider">UNINTER · 2024</p>
+          <p>Protocolos TCP/IP, modelos OSI, endereçamento e infraestrutura de redes.</p>
+          <span class="course-badge">Concluído</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Idiomas com barras de progresso visual -->
+    <section class="languages-section">
+      <h3 class="sub-title">🌐 Idiomas</h3>
+      <div class="lang-grid">
+
+        <div class="lang-item">
+          <div class="lang-header">
+            <span>Português</span>
+            <span>Nativo</span>
+          </div>
+          <!-- Barra de progresso preenchida via CSS inline -->
+          <div class="lang-bar">
+            <div class="lang-fill" style="width: 100%"></div>
+          </div>
+        </div>
+
+        <div class="lang-item">
+          <div class="lang-header">
+            <span>Inglês</span>
+            <span>Intermediário</span>
+          </div>
+          <div class="lang-bar">
+            <div class="lang-fill" style="width: 55%"></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© 2025 Raphael Ferrari. Feito com HTML, CSS e JavaScript.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
